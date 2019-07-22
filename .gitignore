@@ -63,3 +63,7 @@ rnv-config.local.json
 /projectConfig
 /src
 /index.*.js
+
+
+# WebStorm
+.idea

@@ -10,7 +10,7 @@
     "projectConfigFolder": "./projectConfig",
     "defaultPorts": {},
     "defaultProjectConfigs": {
-        "template": "renative-template-hello-world",
+        "template": "intigral-template-jawwy-tv",
         "supportedPlatforms": [
             "ios",
             "android",

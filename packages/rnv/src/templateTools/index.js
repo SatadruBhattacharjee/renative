@@ -13,6 +13,7 @@ import { getMergedPlugin, getLocalRenativePlugin } from '../pluginTools';
 const DEFAULT_TEMPLATES = [
     'renative-template-hello-world',
     'renative-template-blank',
+    'intigral-template-jawwy-tv'
     // 'renative-template-kitchen-sink'
 ];
 

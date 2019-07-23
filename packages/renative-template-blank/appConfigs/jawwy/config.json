@@ -1,8 +1,8 @@
 {
-    "id": "helloWorld",
+    "id": "jawwyTV",
     "common": {
-        "id": "renative.helloworld",
-        "title": "ReNative",
+        "id": "intigral.jawwytv",
+        "title": "Jawwy TV",
         "description": "Cross-platform application project based on ReNative",
         "author": {
             "name": "Pavel Jacko",
@@ -26,7 +26,7 @@
             "permissions": ["*"],
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "runScheme": "Debug",
                     "bundleAssets": false
                 },
@@ -43,7 +43,7 @@
             "scheme": "RNVAppTVOS",
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "runScheme": "Debug",
                     "bundleAssets": false
                 },
@@ -60,7 +60,7 @@
             "permissions": ["*"],
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "signingConfig": "Debug",
                     "bundleAssets": false
                 },
@@ -76,7 +76,7 @@
             "permissions": ["*"],
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "signingConfig": "Debug",
                     "bundleAssets": false
                 },
@@ -92,7 +92,7 @@
             "permissions": ["*"],
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "signingConfig": "Debug",
                     "bundleAssets": false
                 },
@@ -108,7 +108,7 @@
             "buildSchemes": {
                 "buildSchemes": {
                     "debug": {
-                        "id": "renative.blank.debug",
+                        "id": "intigral.jawwytv.debug",
                         "bundleAssets": false,
                         "environment": "development"
                     },
@@ -138,7 +138,7 @@
             "entryFile": "index.web",
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "bundleAssets": false,
                     "environment": "developement"
                 },
@@ -158,7 +158,7 @@
             "entryFile": "index.kaios",
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "bundleAssets": false
                 },
                 "release": {
@@ -171,7 +171,7 @@
             "entryFile": "index.firefoxos",
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "bundleAssets": false
                 },
                 "release": {
@@ -184,7 +184,7 @@
             "entryFile": "index.firefoxtv",
             "buildSchemes": {
                 "debug": {
-                    "id": "renative.blank.debug",
+                    "id": "intigral.jawwytv.debug",
                     "bundleAssets": false
                 },
                 "release": {

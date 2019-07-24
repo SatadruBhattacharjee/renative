@@ -4,6 +4,7 @@ const blacklist = require('metro-config/src/defaults/blacklist');
 const config = {
     resolver:{
         blacklistRE: blacklist([
+            /packages\/rnv\/node_modules\/react-native\/.*/,
             /Sample\/.*/,
             /nodejs-assets\/.*/,
             /android\/.*/,

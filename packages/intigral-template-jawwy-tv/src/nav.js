@@ -20,6 +20,7 @@ import Theme from './theme';
 
 const isDrawerMenuBased = () => navStructure.root.menus.drawerMenu.isVisibleIn.includes(Api.platform);
 const isTopMenuBased = () => navStructure.root.menus.topMenu.isVisibleIn.includes(Api.platform);
+const isSideMenuBased = () => navStructure.root.menus.sideMenu.isVisibleIn.includes(Api.platform);
 
 const navStructure = {
     root: {
@@ -36,7 +37,7 @@ const navStructure = {
             },
             sideMenu: {
                 position: 'left',
-                isVisibleIn: [MACOS, WINDOWS],
+                isVisibleIn: [MACOS, WINDOWS, TIZEN, WEB, WEBOS],
                 component: 'Menu',
                 options: {
                     menuWidth: 250
@@ -44,7 +45,7 @@ const navStructure = {
                 navigationOptions: {},
             },
             topMenu: {
-                isVisibleIn: [TVOS, ANDROID_TV, TIZEN, FIREFOX_TV, WEB, WEBOS],
+                isVisibleIn: [TVOS, ANDROID_TV, FIREFOX_TV],
                 component: 'Menu',
                 options: {
                     menuHeight: 100

@@ -76,6 +76,7 @@
         "watch": "cd ./packages/rnv && npm run watch"
     },
     "dependencies": {
+        "@noriginmedia/react-spatial-navigation": "^2.6.0",
         "@react-navigation/core": "3.4.2",
         "@react-navigation/native": "3.5.0",
         "@react-navigation/web": "1.0.0-alpha.9",
@@ -108,7 +109,7 @@
         "xcode": ">=8.0.0"
     },
     "private": true,
-    "title": "ReNative",
+    "title": "Jawwy TV",
     "codename": "Iron Ladybird",
     "jest": {
         "preset": "react-native",
